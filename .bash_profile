@@ -15,14 +15,11 @@ export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH
 export PATH=$PATH:$GOPATH/bin
-#gitkranken
-export PATH=$PATH:/opt/gitkranken
+#gitkraken
+export PATH=$PATH:/usr/local/gitkraken/
 
 
 # The next line updates PATH for the OC completion.
-#if [ -f '/home/mangirdas/.oc' ]; then source '/home/mangirdas/.oc'; fi
+if [ -f '${HOME}/.oc' ]; then source '${HOME}/.oc'; fi
 
-
-export PATH=$PATH:/opt/gitkraken/gitkraken/
-source ~/.oc
 
